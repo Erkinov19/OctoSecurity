@@ -1,4 +1,4 @@
-package Service;
+package com.octoSecurity.OctoSecurity.Service;
 
 import com.octoSecurity.OctoSecurity.Repository.ProfileRepository;
 import com.octoSecurity.OctoSecurity.ProfileEntity;

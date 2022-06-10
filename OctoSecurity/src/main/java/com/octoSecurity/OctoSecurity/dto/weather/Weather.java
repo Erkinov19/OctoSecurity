@@ -5,6 +5,7 @@ public class Weather {
     private Integer id;
     private String main;
     private String description;
+    private String icon;
 
     public Integer getId() {
         return id;
@@ -38,5 +39,5 @@ public class Weather {
         this.icon = icon;
     }
 
-    private String  icon;
+
 }

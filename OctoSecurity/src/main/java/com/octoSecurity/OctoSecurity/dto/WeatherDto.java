@@ -6,13 +6,15 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.List;
+
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
 public class WeatherDto {
     private Coord coord;
-    private Weather weather;
+    private List<Weather> weather;
     private String base;
     private Main main;
     private Long visibility;
@@ -31,11 +33,11 @@ public class WeatherDto {
         this.coord = coord;
     }
 
-    public Weather getWeather() {
+    public List<Weather> getWeather() {
         return weather;
     }
 
-    public void setWeather(Weather weather) {
+    public void setWeather(List<Weather> weather) {
         this.weather = weather;
     }
 

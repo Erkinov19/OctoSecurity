@@ -1,4 +1,4 @@
-package Service;
+package com.octoSecurity.OctoSecurity.Service;
 
 import com.octoSecurity.OctoSecurity.dto.WeatherDto;
 import org.springframework.http.ResponseEntity;

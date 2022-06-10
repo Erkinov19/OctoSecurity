@@ -1,6 +1,6 @@
 package com.octoSecurity.OctoSecurity.Controller;
 
-import Service.WeatherService;
+import com.octoSecurity.OctoSecurity.Service.WeatherService;
 import com.octoSecurity.OctoSecurity.dto.ApiWeatherDto;
 import com.octoSecurity.OctoSecurity.dto.WeatherDto;
 import org.springframework.beans.factory.annotation.Autowired;
