@@ -1,14 +1,14 @@
-package com.octoSecurity.OctoSecurity;
+package Service;
 
+import Repository.ProfileRepository;
 import com.octoSecurity.OctoSecurity.ProfileEntity;
-import com.octoSecurity.OctoSecurity.ProfileRepository;
+import com.octoSecurity.OctoSecurity.ProfileRole;
 import com.octoSecurity.OctoSecurity.dto.AuthDto;
 import com.octoSecurity.OctoSecurity.dto.RegisterDto;
 import com.octoSecurity.OctoSecurity.dto.UpdateDto;
 import com.octoSecurity.OctoSecurity.security.JwtTokenUtil;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

@@ -1,5 +1,7 @@
-package com.octoSecurity.OctoSecurity;
+package Controller;
 
+import com.octoSecurity.OctoSecurity.ProfileEntity;
+import Service.ProfileService;
 import com.octoSecurity.OctoSecurity.dto.AuthDto;
 import com.octoSecurity.OctoSecurity.dto.RegisterDto;
 import com.octoSecurity.OctoSecurity.dto.UpdateDto;

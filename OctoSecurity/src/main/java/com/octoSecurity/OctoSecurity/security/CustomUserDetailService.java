@@ -1,7 +1,7 @@
 package com.octoSecurity.OctoSecurity.security;
 
 import com.octoSecurity.OctoSecurity.ProfileEntity;
-import com.octoSecurity.OctoSecurity.ProfileRepository;
+import Repository.ProfileRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -14,6 +14,10 @@ import java.util.Optional;
 public class CustomUserDetailService implements UserDetailsService {
     @Autowired
     private ProfileRepository profileRepository;
+
+    public CustomUserDetailService(ProfileRepository profileRepository) {
+        this.profileRepository = profileRepository;
+    }
 
     @Override
     public UserDetails loadUserByUsername(String s) throws UsernameNotFoundException {
