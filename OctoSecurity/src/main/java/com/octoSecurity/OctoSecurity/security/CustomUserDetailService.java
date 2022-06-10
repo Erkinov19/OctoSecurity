@@ -1,7 +1,7 @@
 package com.octoSecurity.OctoSecurity.security;
 
 import com.octoSecurity.OctoSecurity.ProfileEntity;
-import Repository.ProfileRepository;
+import com.octoSecurity.OctoSecurity.Repository.ProfileRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

@@ -1,4 +1,4 @@
-package Controller;
+package com.octoSecurity.OctoSecurity.Controller;
 
 import Service.WeatherService;
 import com.octoSecurity.OctoSecurity.dto.ApiWeatherDto;

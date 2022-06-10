@@ -1,4 +1,4 @@
-package Repository;
+package com.octoSecurity.OctoSecurity.Repository;
 
 import com.octoSecurity.OctoSecurity.ProfileEntity;
 import org.springframework.data.jpa.repository.JpaRepository;

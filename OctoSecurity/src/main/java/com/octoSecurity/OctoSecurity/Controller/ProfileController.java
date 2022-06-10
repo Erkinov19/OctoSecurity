@@ -1,4 +1,4 @@
-package Controller;
+package com.octoSecurity.OctoSecurity.Controller;
 
 import com.octoSecurity.OctoSecurity.ProfileEntity;
 import Service.ProfileService;

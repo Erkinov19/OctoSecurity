@@ -1,6 +1,6 @@
 package Service;
 
-import Repository.ProfileRepository;
+import com.octoSecurity.OctoSecurity.Repository.ProfileRepository;
 import com.octoSecurity.OctoSecurity.ProfileEntity;
 import com.octoSecurity.OctoSecurity.ProfileRole;
 import com.octoSecurity.OctoSecurity.dto.AuthDto;
